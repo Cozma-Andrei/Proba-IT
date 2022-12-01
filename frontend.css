@@ -1,0 +1,159 @@
+.img1{
+
+    height: 56px;
+    width: 197px;
+    left: 45px;
+    top: 50px;
+    border-radius: 0px;
+    position: fixed;
+
+}
+
+.button1{
+
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+
+    color: #06114F;
+
+    height: 25px;
+    width: 68px;
+    top: 66px;
+    right: 232px;
+    float: right;
+    position: fixed;
+
+}
+.button1:hover {text-decoration: underline;}
+
+.button2{
+
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+
+    color: #06114F;
+
+    height: 25px;
+    width: 112px;
+    right: 99px;
+    top: 66px;
+    float: right;
+    position: fixed;
+
+}
+.button2:hover {text-decoration: underline;}
+
+.form-popup {display: none;}
+
+.sharing{
+
+    position: absolute;
+    width: 659px;
+    height: 133px;
+    left: 55px;
+    top: 288px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 52px;
+
+    text-align: center;
+
+    color: #252F65;
+
+}
+
+.img2{
+
+    position: absolute;
+    width: 647px;
+    height: 647px;
+    left: 694px;
+    top: 78px;
+
+}
+
+.fail{
+
+    position: absolute;
+    width: 545px;
+    height: 53px;
+    left: 104px;
+    top: 426px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #252F65;
+
+}
+
+.button3{
+
+    position: absolute;
+    left: 233px;
+    top: 515px;
+    cursor: pointer;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    height: 65px;
+    width: 286px;
+    background: #6F3096;
+    border-radius: 5px;
+    border-color: transparent;
+
+}
+
+.rect1{
+
+    position: absolute;
+    width: 100%;
+    height: 673px;
+    left: -4px;
+    top: 786px;
+
+    background: #6F3096;
+
+}
+
+.rect2{
+
+    position: absolute;
+    width: 945px;
+    height: 458px;
+    left: 268px;
+    top: 897px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.5);
+    border-radius: 21px;
+
+}
