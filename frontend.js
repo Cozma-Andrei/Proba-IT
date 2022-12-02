@@ -19,11 +19,6 @@ function closeForm1() {
     document.getElementById("button1").style.display = "none";
   }
 
-function restoreButtons() {
-    document.getElementById("button1").innerHTML = "Logare";
-    document.getElementById("button2").innerHTML = "Creare Cont";
-}
-
 function goToUpload() {
     document.getElementById("uploadMeme").scrollIntoView({behavior: 'smooth'});
 }
