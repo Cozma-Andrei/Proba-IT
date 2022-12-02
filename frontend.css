@@ -157,3 +157,131 @@
     border-radius: 21px;
 
 }
+
+.tupeu1{
+
+    position: absolute;
+    width: 389px;
+    height: 125px;
+    left: 320px;
+    top: 1004px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    color: #252F65;
+
+}
+
+.tupeu2{
+
+    position: absolute;
+    width: 333px;
+    height: 90px;
+    left: 320px;
+    top: 1101px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #252F65;
+
+}
+
+.description{
+    
+    position: absolute;
+    width: 103.38px;
+    height: 19.49px;
+    left: 743.4px;
+    top: 985px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #06114F;
+
+}
+
+.descriere{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 353.68px;
+    height: 40.42px;
+    left: 743.54px;
+    top: 1025px;
+
+    border: 1px solid #06114F;
+    border-radius: 5px;
+
+}
+
+.memeType{
+
+    position: absolute;
+    width: 246.23px;
+    height: 34.61px;
+    left: 743.15px;
+    top: 1061.38px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #06114F;
+
+}
+
+.ddc{
+    
+    position: absolute;
+    width: 288.75px;
+    height: 34.61px;
+    left: 766.6px;
+    top: 1136.92px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.send1{
+
+    cursor: pointer;
+    background: #6F3096;
+    border-radius: 5px;
+    position: absolute;
+    height: 40px;
+    width: 161px;
+    left: 766px;
+    top: 1200px;
+    border-color: transparent;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}

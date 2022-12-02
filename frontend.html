@@ -14,12 +14,21 @@
             <button type="button" class="button2" id="button2" onclick="openForm2()">Creare cont</button>
             <button type="button" class="button1" id="button1" onclick="openForm1()">Logare</button>
         </nav>
+
         <p class="sharing">Partajarea de meme-uri nu a fost niciodată mai simplă!</p>
         <img src="./salty.png" alt="Why so salty?" class="img2"/>
         <p class="fail">Platforma ideală pentru studenții de la Politehnică, amuzați de câte materii o să pice semestrul asta.</p>
         <button type="button" class="button3" onclick="goToUpload()">Upload a MEME</button>
         <rect class="rect1"></rect>
         <rect class="rect2" id="uploadMeme"></rect>
+        <p class="tupeu1">Ai tupeu și crezi că ești amuzant?</p>
+        <p class="tupeu2">Trimite-ne un mail și poate ai noroc să ne apuce râsul când îți vedem meme-ul.</p>
+        <h1 class="description">Descriere</h1>
+        <input type="text" placeholder="descriere" name="descriere" class="descriere" required>
+        <h1 class="memeType">Meme (jpg, jpeg, png, gif)</h1>
+        <input type="file" placeholder="drag & drop image or click to upload" name="ddc" class="ddc" accept="image/png, image/gif, image/jpg, image/jpeg" required>
+        <button type="submit" class="send1">Trimite</button>
+
         <div class="form-popup" id="myForm1">
             <form action="/action_page.php" class="form-container">
               <h1>Welcome back</h1>
