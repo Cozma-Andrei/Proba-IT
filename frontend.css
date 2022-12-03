@@ -659,6 +659,7 @@
     position: absolute;
     width: 1440px;
     height: 52px;
+    left: 31px;
     top: 2145px;
 
     font-family: 'Merriweather';
@@ -678,7 +679,7 @@
     position: absolute;
     width: 21px;
     height: 24px;
-    left: 661px;
+    left: 692px;
     top: 2123px;
 
 }
@@ -688,7 +689,7 @@
     position: absolute;
     width: 21px;
     height: 24px;
-    left: 701px;
+    left: 732px;
     top: 2124px;
 
 }
@@ -698,7 +699,28 @@
     position: absolute;
     width: 21px;
     height: 24px;
-    left: 741px;
+    left: 772px;
     top: 2123px;
+
+}
+
+.rectNav{
+
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 123px;
+    background-color: white;
+
+}
+
+#linie{
+
+    position: fixed;
+    width: 100%;
+    top: 114.8px;
+    left: 0px;
+    border-color: transparent;
 
 }
