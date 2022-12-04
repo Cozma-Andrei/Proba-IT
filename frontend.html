@@ -5,6 +5,7 @@
         <link href="./frontend.css" rel="stylesheet">
         <script type="text/javascript" src="./frontend.js"></script>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MEMEIT?</title>
     </head>
 
@@ -13,16 +14,16 @@
         <img src="./salty.png" alt="Why so salty?" class="img2"/>
         <p class="fail">Platforma ideală pentru studenții de la Politehnică, amuzați de câte materii o să pice semestrul asta.</p>
         <button type="button" class="button3" onclick="goToUpload()">Upload a MEME</button>
-        <rect class="rect1"></rect>
-        <rect class="rect2" id="uploadMeme"></rect>
+        <rect id="rect1"></rect>
+        <rect id="rect2"></rect>
         <p class="tupeu1">Ai tupeu și crezi că ești amuzant?</p>
         <p class="tupeu2">Trimite-ne un mail și poate ai noroc să ne apuce râsul când îți vedem meme-ul.</p>
         
-        <form>
+        <form onsubmit="alertNotLoggedIn()">
             <h1 class="description">Descriere</h1>
-            <input type="text" placeholder="descriere" id="descriere" required>
+            <input type="text" placeholder="descriere" id="descriere" required/>
             <h1 class="memeType">Meme (jpg, jpeg, png, gif)</h1>
-            <input type="file" placeholder="drag & drop image or click to upload" id="ddc" accept="image/png, image/gif, image/jpg, image/jpeg" required>
+            <input type="text" placeholder="drag & drop image or click to upload" id="ddc" required/>
             <button type="submit" id="send1">Trimite</button>
         </form>
 
@@ -40,12 +41,12 @@
         <nav>
             <rect class="rectNav"></rect>
             <img src="./Logo.png" alt="Logo" class="img1"/>
-            <button type="button" class="button2" id="button2" onclick="openForm2()">Creare cont</button>
-            <button type="button" class="button1" id="button1" onclick="openForm1()">Logare</button>
+            <button type="button" id="button2" onclick="openForm2()">Creare cont</button>
+            <button type="button" id="button1" onclick="openForm1()">Logare</button>
             <hr id="linie">
         </nav>
         
-        <form class="form-popup" id="myForm1">
+        <form class="form-popup" id="myForm1" action="#" onsubmit="modifyLabels()">
             <rect class="rectLogin"></rect>
             <img src="./Logo.png" alt="Logo" class="imgLogin"/>
             <img src="./X.png" onclick="giveUpCompletion1()" alt="X" class="closeLogin"/>
@@ -53,13 +54,13 @@
             <rect class="rectWhiteLogin"></rect>
             <h1 id="welcoming1">Welcome back</h1>
             <h1 class="usernameLogin">Username</h1>
-            <input type="text" placeholder="username" class="uL" required>
+            <input type="text" placeholder="username" class="uL" required/>
             <h1 class="passwordLogin">Parolă</h1>
-            <input type="password" placeholder="parolă" class="pL" required>
-            <button type="submit" class="btn" onclick="closeForm1()">Logare</button>
+            <input type="password" placeholder="parolă" class="pL" required/>
+            <button type="submit" id="btn">Logare</button>
         </form>
 
-        <form class="form-popup" id="myForm2">
+        <form class="form-popup" id="myForm2" onsubmit="closeCreateForm()">
             <rect class="rectLogin"></rect>
             <img src="./Logo.png" alt="Logo" class="imgLogin"/>
             <img src="./X.png" onclick="giveUpCompletion2()" alt="X" class="closeLogin"/>
@@ -67,12 +68,12 @@
             <rect class="rectWhiteLogin"></rect>
             <h1 id="welcoming2">Welcome</h1>
             <h1 class="usernameLogin">Username</h1>
-            <input type="text" placeholder="username" class="uL" required>
+            <input type="text" placeholder="username" class="uL" required/>
             <h1 id="emailC">Email</h1>
-            <input type="text" placeholder="email" id="eC" required>
+            <input type="text" placeholder="email" id="eC" required/>
             <h1 id="passwordC">Parolă</h1>
-            <input type="password" placeholder="parolă" id="pC" required>
-            <button type="submit" id="btnC" onclick="closeForm2()">Creare cont</button>
+            <input type="password" placeholder="parolă" id="pC" required/>
+            <button type="submit" id="btnC">Creare cont</button>
         </form>
     </body>
 </html>

@@ -9,7 +9,7 @@
 
 }
 
-.button1{
+#button1{
 
     background-color: transparent;
     cursor: pointer;
@@ -31,9 +31,9 @@
     position: fixed;
 
 }
-.button1:hover {text-decoration: underline;}
+#button1:hover {text-decoration: underline;}
 
-.button2{
+#button2{
 
     background-color: transparent;
     cursor: pointer;
@@ -55,7 +55,7 @@
     position: fixed;
 
 }
-.button2:hover {text-decoration: underline;}
+#button2:hover {text-decoration: underline;}
 
 .form-popup {display: none;}
 
@@ -132,7 +132,7 @@
 
 }
 
-.rect1{
+#rect1{
 
     position: absolute;
     width: 100%;
@@ -144,13 +144,13 @@
 
 }
 
-.rect2{
+#rect2{
 
     position: absolute;
     width: 945px;
     height: 458px;
     left: 268px;
-    top: 897px;
+    top: 920px;
 
     background: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.5);
@@ -200,7 +200,7 @@
     position: absolute;
     width: 103.38px;
     height: 19.49px;
-    left: 743.4px;
+    left: 743px;
     top: 985px;
 
     font-family: 'Merriweather';
@@ -218,13 +218,14 @@
     box-sizing: border-box;
 
     position: absolute;
-    width: 353.68px;
+    width: 354px;
     height: 40.42px;
-    left: 743.54px;
+    left: 743px;
     top: 1025px;
 
     border: 1px solid #06114F;
     border-radius: 5px;
+    text-indent: 10px;
 
 }
 
@@ -233,7 +234,7 @@
     position: absolute;
     width: 246.23px;
     height: 34.61px;
-    left: 743.15px;
+    left: 743px;
     top: 1070px;
 
     font-family: 'Merriweather';
@@ -248,17 +249,17 @@
 
 #ddc{
     
-    position: absolute;
-    width: 288.75px;
-    height: 34.61px;
-    left: 743.15px;
-    top: 1176px;
+    box-sizing: border-box;
 
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    position: absolute;
+    width: 354px;
+    height: 150.84px;
+    left: 743px;
+    top: 1110px;
+
+    border: 1px solid #252F65;
+    border-radius: 5px;
+    text-indent: 10px;
 
 }
 
@@ -270,9 +271,10 @@
     position: absolute;
     height: 40px;
     width: 161px;
-    left: 834px;
-    top: 1275px;
+    left: 840px;
+    top: 1285px;
     border-color: transparent;
+    cursor: pointer;
 
     font-family: 'Merriweather';
     font-style: normal;
@@ -437,6 +439,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    text-indent: 10px;
 
 }
 
@@ -457,19 +460,21 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    text-indent: 10px;
 
 }
 
-.btn{
+#btn{
 
     position: absolute;
     background: #6F3096;
     height: 45px;
     width: 218px;
-    left: 135px;
+    left: 132px;
     top: 480px;
     border-radius: 5px;
     border-color: transparent;
+    cursor: pointer;
 
     font-family: 'Merriweather';
     font-style: normal;
@@ -527,6 +532,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    text-indent: 10px;
 
 }
 
@@ -565,6 +571,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    text-indent: 10px;
 
 }
 
@@ -574,10 +581,11 @@
     background: #6F3096;
     height: 45px;
     width: 218px;
-    left: 135px;
+    left: 132px;
     top: 525px;
     border-radius: 5px;
     border-color: transparent;
+    cursor: pointer;
 
     font-family: 'Merriweather';
     font-style: normal;
@@ -724,3 +732,7 @@
     border-color: transparent;
 
 }
+
+@media (max-width: 800px) {
+    #linie{border-color: #6F3096;}
+  }
