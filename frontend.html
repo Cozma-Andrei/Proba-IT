@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="./frontend/src/frontend.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./frontend/public/css/bootstrap.css">
+        <script type="text/javascript" src="./frontend/src/frontend.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MEMEIT?</title>
+    </head>
+
+    <body>
+        <nav class="navbar fixed-top navbar-light bg-white">
+
+          <div class="container-fluid" style="margin-top: 13px; margin-left: 17px; margin-right: 15px;">
+
+            <div class="navbar-header">
+              <img src="./frontend/public/Logo.png" alt="Logo"/>
+            </div>
+
+            <div>
+              <button type="button" id="button1" class="btn navbar-btn bg-white" onclick="openForm1()">Logare</button>
+              <button type="button" id="button2" class="btn navbar-btn bg-white" onclick="openForm2()">Creare cont</button>
+            </div>
+
+          </div>
+
+        </nav>
+        
+
+        <div class="container">
+
+          <div class="row" id="poz">
+
+            <div class="col-md-6 col-sm-12 text-center">
+              <div class="sharing">Partajarea de meme-uri nu a fost niciodată mai simplă!</div>
+              <div class="fail">Platforma ideală pentru studenții de la Politehnică, amuzați de câte materii o să pice semestrul asta.</div>
+              <a href="#rect1"><button type="button" id="buttonUpload">Upload a MEME</button></a>
+            </div>
+            <div class="col-md-6 col-sm-12 text-center"><img src="./frontend/public/salty.png" alt="Why so salty?" id="salty"/></div>
+          </div>
+
+        </div>
+
+        
+        <div class="container-fluid">
+
+          <div class="row">
+            <div class="col-md-12 rect1" id="rect1">
+              <div class="row">
+                <div class="col-md-2 col-sm-1"></div>
+                <div class="col-md-8 col-sm-10 rect2" id="rect2">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12" id="part1">
+                      <div class="tupeu1">Ai tupeu și crezi că ești amuzant?</div>
+                      <div class="tupeu2">Trimite-ne un mail și poate ai noroc să ne apuce râsul când îți vedem meme-ul.</div>
+                    </div>
+                    <div class="col-md-6 col-sm-12" id="part2">
+                      <form onsubmit="alertNotLoggedIn()">
+                        <div class="description">Descriere</div>
+                        <input type="text" placeholder="descriere" id="descriere" required/>
+                        <div class="memeType">Meme (jpg, jpeg, png, gif)</div>
+                        <input type="file" accept=".png,.jpg,.jpeg,.gif" placeholder="drag & drop image or click to upload" id="ddc" required/>
+                        <button type="submit" id="send">Trimite</button>
+                      </form>
+                    </div>
+                  </div>
+                <div class="col-md-2 col-sm-1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div id="most">Most Viewed</div>
+
+        <div class="container">
+
+          <div class="row text-center gy-5">
+
+            <div class="col-md-4 col-sm-12 p-3"><img src="./frontend/public/image 1.png" alt="3 saptamani" class="pozeMeme"/></div>
+            <div class="col-md-4 col-sm-12 p-3"><img src="./frontend/public/image 2.png" alt="draw 25" class="pozeMeme"/></div>
+            <div class="col-md-4 col-sm-12 p-3"><img src="./frontend/public/image 3.png" alt="15 task-uri" class="pozeMeme"/></div>
+
+          </div>
+
+        </div>
+
+
+        <div class="container-fluid">
+
+          <div class="row rectCopy">
+
+            <div class="col-xs-12 text-center">
+              <a href="https://www.instagram.com/lsacbucuresti/" target="_blank"><img src="./frontend/public/instagram.png" class="insta"/></a>
+              <a href="https://www.twitch.tv/lsac_bucuresti/" target="_blank"><img src="./frontend/public/twitch.png" class="twitch"/></a>
+              <a href="https://www.facebook.com/LsacBucuresti/" target="_blank"><img src="./frontend/public/facebook.png" class="facebook"/></a>
+              <h1 class="work">Copyright 2022 | La muncă, nu la întins mâna.</h1>
+            </div>
+          
+          </div>
+
+        </div>
+        
+
+        <form class="form-popup" id="myForm1" onsubmit="modifyLabels()">
+            <rect class="rectLogin"></rect>
+            <img src="./frontend/public/Logo.png" alt="Logo" class="imgLogin"/>
+            <img src="./frontend/public/X.png" onclick="giveUpCompletion1()" alt="X" class="closeLogin"/>
+            <rect class="rectPurpleLogin"></rect>
+            <rect class="rectWhiteLogin"></rect>
+            <div id="welcoming1">Welcome back</div>
+            <div class="usernameLogin">Username</div>
+            <input type="text" placeholder="username" class="uL" required/>
+            <div class="passwordLogin">Parolă</div>
+            <input type="password" placeholder="parolă" class="pL" required/>
+            <button type="submit" id="buton">Logare</button>
+        </form>
+
+
+        <form class="form-popup" id="myForm2" onsubmit="closeCreateForm()">
+            <rect class="rectLogin"></rect>
+            <img src="./frontend/public/Logo.png" alt="Logo" class="imgLogin"/>
+            <img src="./frontend/public/X.png" onclick="giveUpCompletion2()" alt="X" class="closeLogin"/>
+            <rect class="rectPurpleLogin"></rect>
+            <rect class="rectWhiteLogin"></rect>
+            <div id="welcoming2">Welcome</div>
+            <div class="usernameLogin">Username</div>
+            <input type="text" placeholder="username" class="uL" required/>
+            <div id="emailC">Email</div>
+            <input type="text" placeholder="email" id="eC" required/>
+            <div id="passwordC">Parolă</div>
+            <input type="password" placeholder="parolă" id="pC" required/>
+            <button type="submit" id="butonC">Creare cont</button>
+        </form>
+    </body>
+</html>
