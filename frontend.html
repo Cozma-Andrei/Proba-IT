@@ -2,9 +2,9 @@
 
 <html>
     <head>
-        <link href="./frontend.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <script type="text/javascript" src="./frontend.js"></script>
+        <link href="./frontend/src/frontend.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./frontend/public/css/bootstrap.css">
+        <script type="text/javascript" src="./frontend/src/frontend.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MEMEIT?</title>
@@ -16,7 +16,7 @@
           <div class="container-fluid" style="margin-top: 13px; margin-left: 17px; margin-right: 15px;">
 
             <div class="navbar-header">
-              <img src="./Logo.png" alt="Logo"/>
+              <img src="./frontend/public/Logo.png" alt="Logo"/>
             </div>
 
             <div>
@@ -38,7 +38,7 @@
               <div class="fail">Platforma ideală pentru studenții de la Politehnică, amuzați de câte materii o să pice semestrul asta.</div>
               <a href="#rect1"><button type="button" id="buttonUpload">Upload a MEME</button></a>
             </div>
-            <div class="col-md-6 col-sm-12 text-center"><img src="./salty.png" alt="Why so salty?" id="salty"/></div>
+            <div class="col-md-6 col-sm-12 text-center"><img src="./frontend/public/salty.png" alt="Why so salty?" id="salty"/></div>
           </div>
 
         </div>
@@ -81,9 +81,9 @@
 
           <div class="row text-center gy-5">
 
-            <div class="col-md-4 col-sm-12 p-3"><img src="./image 1.png" alt="3 saptamani" class="pozeMeme"/></div>
-            <div class="col-md-4 col-sm-12 p-3"><img src="./image 2.png" alt="draw 25" class="pozeMeme"/></div>
-            <div class="col-md-4 col-sm-12 p-3"><img src="./image 3.png" alt="15 task-uri" class="pozeMeme"/></div>
+            <div class="col-md-4 col-sm-12 p-3"><img src="./frontend/public/image 1.png" alt="3 saptamani" class="pozeMeme"/></div>
+            <div class="col-md-4 col-sm-12 p-3"><img src="./frontend/public/image 2.png" alt="draw 25" class="pozeMeme"/></div>
+            <div class="col-md-4 col-sm-12 p-3"><img src="./frontend/public/image 3.png" alt="15 task-uri" class="pozeMeme"/></div>
 
           </div>
 
@@ -95,9 +95,9 @@
           <div class="row rectCopy">
 
             <div class="col-xs-12 text-center">
-              <a href="https://www.instagram.com/lsacbucuresti/" target="_blank"><img src="./instagram.png" class="insta"/></a>
-              <a href="https://www.twitch.tv/lsac_bucuresti/" target="_blank"><img src="./twitch.png" class="twitch"/></a>
-              <a href="https://www.facebook.com/LsacBucuresti/" target="_blank"><img src="./facebook.png" class="facebook"/></a>
+              <a href="https://www.instagram.com/lsacbucuresti/" target="_blank"><img src="./frontend/public/instagram.png" class="insta"/></a>
+              <a href="https://www.twitch.tv/lsac_bucuresti/" target="_blank"><img src="./frontend/public/twitch.png" class="twitch"/></a>
+              <a href="https://www.facebook.com/LsacBucuresti/" target="_blank"><img src="./frontend/public/facebook.png" class="facebook"/></a>
               <h1 class="work">Copyright 2022 | La muncă, nu la întins mâna.</h1>
             </div>
           
@@ -108,8 +108,8 @@
 
         <form class="form-popup" id="myForm1" onsubmit="modifyLabels()">
             <rect class="rectLogin"></rect>
-            <img src="./Logo.png" alt="Logo" class="imgLogin"/>
-            <img src="./X.png" onclick="giveUpCompletion1()" alt="X" class="closeLogin"/>
+            <img src="./frontend/public/Logo.png" alt="Logo" class="imgLogin"/>
+            <img src="./frontend/public/X.png" onclick="giveUpCompletion1()" alt="X" class="closeLogin"/>
             <rect class="rectPurpleLogin"></rect>
             <rect class="rectWhiteLogin"></rect>
             <h1 id="welcoming1">Welcome back</h1>
@@ -123,8 +123,8 @@
 
         <form class="form-popup" id="myForm2" onsubmit="closeCreateForm()">
             <rect class="rectLogin"></rect>
-            <img src="./Logo.png" alt="Logo" class="imgLogin"/>
-            <img src="./X.png" onclick="giveUpCompletion2()" alt="X" class="closeLogin"/>
+            <img src="./frontend/public/Logo.png" alt="Logo" class="imgLogin"/>
+            <img src="./frontend/public/X.png" onclick="giveUpCompletion2()" alt="X" class="closeLogin"/>
             <rect class="rectPurpleLogin"></rect>
             <rect class="rectWhiteLogin"></rect>
             <h1 id="welcoming2">Welcome</h1>
