@@ -1,316 +1,201 @@
-.img1{
-
-    height: 56px;
-    width: 197px;
-    left: 45px;
-    top: 50px;
-    border-radius: 0px;
-    position: fixed;
-
-}
-
 #button1{
-
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-
-    font-family: Merriweather;
-    font-size: 20px;
     font-weight: 300;
-    font-style: normal;
+    font-size: 20px;
     line-height: 25px;
-
     color: #06114F;
-
-    height: 25px;
-    width: 68px;
-    top: 66px;
-    right: 232px;
-    float: right;
-    position: fixed;
-
 }
+
 #button1:hover {text-decoration: underline;}
 
 #button2{
-
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-
-    font-family: Merriweather;
-    font-size: 20px;
     font-weight: 300;
-    font-style: normal;
+    font-size: 20px;
     line-height: 25px;
-
     color: #06114F;
-
-    height: 25px;
-    width: 112px;
-    right: 99px;
-    top: 66px;
-    float: right;
-    position: fixed;
-
 }
+
 #button2:hover {text-decoration: underline;}
 
 .form-popup {display: none;}
 
 .sharing{
-
-    position: absolute;
-    width: 659px;
-    height: 133px;
-    left: 55px;
-    top: 288px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
+    position: relative;
     font-weight: 900;
     font-size: 43px;
     line-height: 52px;
-
     text-align: center;
-
     color: #252F65;
-
 }
 
-.img2{
+#salty{
+    position: relative;
+    top: 15px;
+    max-width: 100%;
+}
 
-    position: absolute;
-    width: 647px;
-    height: 647px;
-    left: 694px;
-    top: 78px;
+@media (min-width: 990px) and (max-width: 2000px) {
+    #salty {top: -130px;}
+   }
 
+@media (max-width: 700px) {
+    #rect1 {height: 110vh;}
+    #rect2 {margin-top: -10%; height: 90vh;}
+    #part1 {margin-top: -3%;}
+    #part2 {margin-left: 3%; margin-top: 6%;}
+}
+
+#poz{
+    position: relative;
+    top: 270px;
 }
 
 .fail{
-
-    position: absolute;
-    width: 545px;
-    height: 53px;
-    left: 104px;
-    top: 426px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
+    position: relative;
+    top: 20px;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-    
     color: #252F65;
-
 }
 
-.button3{
-
-    position: absolute;
-    left: 233px;
-    top: 515px;
-    cursor: pointer;
-
-    font-family: 'Merriweather';
-    font-style: normal;
+#buttonUpload{
+    position: relative;
+    top: 40px;
+    max-width: 100%;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    text-align: center;
-
     color: #FFFFFF;
-
     height: 65px;
     width: 286px;
     background: #6F3096;
     border-radius: 5px;
     border-color: transparent;
-
 }
 
-#rect1{
-
-    position: absolute;
+.rect1{
+    position: relative;
     width: 100%;
-    height: 673px;
-    left: 0px;
-    top: 786px;
-
+    height: 90vh;
+    top: 286px;
     background: #6F3096;
-
 }
 
-#rect2{
-
-    position: absolute;
-    width: 945px;
-    height: 458px;
-    left: 268px;
-    top: 920px;
-
+.rect2{
+    position: relative;
+    height: 60vh;
+    top: 117px;
     background: #FFFFFF;
     box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.5);
     border-radius: 21px;
-
 }
 
 .tupeu1{
-
-    position: absolute;
-    width: 389px;
-    height: 125px;
-    left: 320px;
-    top: 1004px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
+    position: relative;
+    top: 30%;
+    width: 90%;
+    max-width: 100%;
+    left: 6%;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-
-
     color: #252F65;
-
+    max-width: 100%;
 }
 
 .tupeu2{
-
-    position: absolute;
-    width: 333px;
-    height: 90px;
-    left: 320px;
-    top: 1101px;
-
-    font-family: 'Roboto';
-    font-style: normal;
+    position: relative;
+    top: 35%;
+    width: 80%;
+    left: 6%;
     font-weight: 300;
     font-size: 22px;
     line-height: 27px;
-
     color: #252F65;
-
+    max-width: 100%;
 }
 
 .description{
-    
-    position: absolute;
-    width: 103.38px;
-    height: 19.49px;
-    left: 743px;
-    top: 985px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
+    position: relative;
+    top: 30px;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
     color: #06114F;
-
+    max-width: 100%;
 }
 
 #descriere{
-
     box-sizing: border-box;
-
-    position: absolute;
+    position: relative;
     width: 354px;
     height: 40.42px;
-    left: 743px;
-    top: 1025px;
-
+    top: 50px;
     border: 1px solid #06114F;
     border-radius: 5px;
     text-indent: 10px;
-
+    max-width: 100%;
 }
 
 .memeType{
-
-    position: absolute;
-    width: 246.23px;
-    height: 34.61px;
-    left: 743px;
-    top: 1070px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
+    position: relative;
+    top: 70px;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
     color: #06114F;
-
+    max-width: 100%;
 }
 
 #ddc{
-    
     box-sizing: border-box;
-
-    position: absolute;
+    position: relative;
     width: 354px;
     height: 150.84px;
-    left: 743px;
-    top: 1110px;
-
+    top: 90px;
     border: 1px solid #252F65;
     border-radius: 5px;
     text-indent: 10px;
-
+    max-width: 100%;
+    align-self: center;
 }
 
-#send1{
-
-    cursor: pointer;
+#send{
     background: #6F3096;
     border-radius: 5px;
-    position: absolute;
+    position: relative;
     height: 40px;
     width: 161px;
-    left: 840px;
-    top: 1285px;
+    left: 20%;
+    top: 128px;
     border-color: transparent;
-    cursor: pointer;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
     text-align: center;
-
     color: #FFFFFF;
-
+    max-width: 100%;
 }
 
 .imgLogin{
-    
     position: absolute;
     width: 108px;
     height: 31px;
     left: 16px;
     top: 22px;
-
 }
 
 .closeLogin{
-
     position: absolute;
     height: 25px;
     width: 25px;
     left: 450px;
     top: 21px;
     border-radius: 0px;
-
 }
 
 .rectLogin{
-
     position: absolute;
     height: 70px;
     width: 519px;
@@ -318,11 +203,9 @@
     top: 0px;
     border-radius: 5px;
     background-color: #FFFFFF;
-
 }
 
 .rectPurpleLogin{
-    
     position: absolute;
     width: 519px;
     height: 590px;
@@ -330,142 +213,99 @@
     top: 66px;
     background-color: #6F3096;
     border-radius: 5px;
-
 }
 
 .rectWhiteLogin{
-
     box-sizing: border-box;
-
     position: absolute;
     height: 471px;
     width: 390px;
     left: 47px;
     top: 121px;
     border-radius: 5px;
-
-    
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-
 }
 
 #welcoming1{
-
     position: absolute;
     width: 418px;
     height: 27px;
     left: 137px;
     top: 186px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-
     color: #6F3096;
-
 }
 
 #welcoming2{
-
     position: absolute;
     width: 418px;
     height: 27px;
     left: 178px;
     top: 186px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-
     color: #6F3096;
-
 }
 
 .usernameLogin{
-
     position: absolute;
     width: 106.08px;
     height: 20px;
     left: 94px;
     top: 265px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
     color: #252F65;
-
 }
 
 .passwordLogin{
-
     position: absolute;
     width: 104.55px;
     height: 19.71px;
     left: 94px;
     top: 348px;
-
-    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
     color: #252F65;
-
 }
 
 .uL{
-
     box-sizing: border-box;
-
     position: absolute;
     width: 296px;
     height: 41px;
     left: 94px;
     top: 300px;
-
     border-radius: 5px;
-
-    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-indent: 10px;
-
 }
 
 .pL{
-
     box-sizing: border-box;
-
     position: absolute;
     width: 296px;
     height: 41px;
     left: 94px;
     top: 383px;
-
     border-radius: 5px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-indent: 10px;
-
 }
 
-#btn{
-
+#buton{
     position: absolute;
     background: #6F3096;
     height: 45px;
@@ -474,109 +314,74 @@
     top: 480px;
     border-radius: 5px;
     border-color: transparent;
-    cursor: pointer;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-
     color: #FFFFFF;
-
 }
 
 .form-popup{
-
     position: fixed;
-    top: 20%;
+    top: 35%;
     left: 50%;
     margin-top: -100px;
     margin-left: -185px;
-
 }
 
 #emailC{
-
     position: absolute;
     width: 106.08px;
     height: 20px;
     left: 94px;
     top: 348px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
     color: #252F65;
-
 }
 
 #eC{
-
     box-sizing: border-box;
-
     position: absolute;
     width: 296px;
     height: 41px;
     left: 94px;
     top: 383px;
-
     border-radius: 5px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-indent: 10px;
-
 }
 
 #passwordC{
-
     position: absolute;
     width: 104.55px;
     height: 19.71px;
     left: 94px;
     top: 431px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-
     color: #252F65;
-
 }
 
 #pC{
-
     box-sizing: border-box;
-
     position: absolute;
     width: 296px;
     height: 41px;
     left: 94px;
     top: 466px;
-
     border-radius: 5px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-indent: 10px;
-
 }
 
-#btnC{
-
+#butonC{
     position: absolute;
     background: #6F3096;
     height: 45px;
@@ -585,154 +390,76 @@
     top: 525px;
     border-radius: 5px;
     border-color: transparent;
-    cursor: pointer;
-
-    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
-
     color: #FFFFFF;
-
 }
 
 #most{
-
-    position: absolute;
-    width: 231px;
+    position: relative;
     height: 45px;
-    left: 109px;
-    top: 1486px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
+    top: 400px;
+    max-width: 100%;
+    left: 9%;
     font-weight: 700;
     font-size: 36px;
     line-height: 45px;
-    text-align: center;
-
     color: #252F65;
-
+    max-width: 100%;
 }
 
-.sapt3{
-    
-    position: absolute;
+.pozeMeme{
+    position: relative;
     border-radius: 55px;
-    height: 369px;
-    width: 418px;
-    left: 109px;
-    top: 1600px;
-
+    top: 480px;
+    max-width: 100%;
 }
 
-.draw25{
-
-    position: absolute;
-    border-radius: 55px;
-    height: 369px;
-    width: 418px;
-    left: 543px;
-    top: 1600px;
-
-}
-
-.task-uri{
-
-    position: absolute;
-    border-radius: 55px;
-    height: 369px;
-    width: 418px;
-    left: 977px;
-    top: 1600px;
-
-}
-
-.restCopy{
-
-    position: absolute;
-    width: 100%;
+.rectCopy{
+    position: relative;
     height: 174px;
-    left: 0px;
-    top: 2051px;
-
+    top: 551px;
     background: #06114F;
-
 }
 
 .work{
-
-    position: absolute;
-    width: 1440px;
-    height: 52px;
-    left: 31px;
-    top: 2145px;
-
-    font-family: 'Merriweather';
-    font-style: normal;
+    position: relative;
+    top: 70px;
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
-
-    text-align: center;
-
     color: #FFFFFF;
-
 }
 
 .insta{
-    
-    position: absolute;
+    position: relative;
     width: 21px;
     height: 24px;
-    left: 692px;
-    top: 2123px;
-
+    top: 50px;
 }
 
 .twitch{
-    
-    position: absolute;
+    position: relative;
     width: 21px;
     height: 24px;
-    left: 732px;
-    top: 2124px;
-
+    top: 50px;
 }
 
 .facebook{
-
-    position: absolute;
+    position: relative;
     width: 21px;
     height: 24px;
-    left: 772px;
-    top: 2123px;
-
+    top: 50px;
 }
 
-.rectNav{
-
-    position: fixed;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    height: 123px;
-    background-color: white;
-
+.navbar{
+    height: 20%;
+    max-width: 100%;
 }
 
-#linie{
-
-    position: fixed;
-    width: 100%;
-    top: 114.8px;
-    left: 0px;
-    border-color: transparent;
-
+*{
+    font-family: Merriweather;
 }
-
-@media (max-width: 800px) {
-    #linie{border-color: #6F3096;}
-  }

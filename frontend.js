@@ -14,6 +14,7 @@ function openForm2() {
 }
 
 function modifyLabels() {
+  event.preventDefault();
   document.getElementById("myForm1").style.display = "none";
   document.getElementById("button2").innerHTML = "Delogare";
   document.getElementById("button1").style.display = "none";
@@ -21,10 +22,6 @@ function modifyLabels() {
 
 function closeCreateForm() {
   document.getElementById("myForm2").style.display = "none";
-}
-
-function goToUpload() {
-  document.getElementById("rect1").scrollIntoView({behavior: "smooth"});
 }
 
 function giveUpCompletion1() {
